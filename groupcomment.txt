@@ -1,0 +1,3 @@
+= Our plan will be stractured here,Every step on the project will be stored here =
+
+comment on the method of how any implementation was done will be well detailed here.
