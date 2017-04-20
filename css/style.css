@@ -1,6 +1,136 @@
-*{
-
-border:0px;
-padding:0px;
-background-color: lightgreen; 
+body{
+font: 15px/1.5 Arial, Helvetica,sans-serif;
+border:0p;
+padding:0;
+background-color: #f4f4f4; 
 }
+
+/*Global*/
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*Header*/
+header.header1{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: e8491d 3px solid;
+}
+
+header.header1 a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase firstletter;
+	font-size: 16px;
+}
+
+header.header1 ul{
+	margin: 0;
+	padding: 0;
+}
+header.header1 li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header.header1 #logo{
+	float: left;
+	margin-top: 10px;
+	margin-right: 4px;
+
+}
+
+header.header1 h2{
+	margin: 0;
+}
+header.header1 nav{
+	float: right;
+}
+
+header.header1 a:hover{
+	color: #fea;
+	font-weight: bold;
+}
+header.header1 #logo:hover{
+	color: #fea;
+	font-weight: bold;
+}
+/*Second header section*/
+div header .NavMenu{
+	background: darkred;
+	color: #ffffff;
+	padding-top: 20px;
+	min-height: 40px;
+	border-bottom: e8491d 3px solid;
+}
+
+div header .NavMenu a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+div header .NavMenu ul{
+	margin: 0;
+	padding: 0;
+}
+div header .NavMenu li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+/* Seach section  */
+
+.Simplesearch {
+    align-items: center;
+    background: #8a44d5 none repeat scroll 0 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    padding: 6px;
+    transition: all 0.5s ease 0s;
+}
+.Simplesearch:hover, .Simplesearch:focus {
+  background: #853cd3;
+}
+.Simplesearch button,
+.Simplesearch input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  border: 0;
+      margin-left: 23;
+  color: inherit;
+  font: inherit;
+  outline: 0;
+}
+
+
+/*Testing*/
+
+ .container1 #boxes{
+ 	margin-top: 20px;
+ }
+ .container1 #boxes .box{
+ 	float: right;
+ 	text-align:center;
+ 	width: 5%;
+ 	padding: 10px;
+ }
+ .container1 #boxes .box img{
+ 	width: 90px;
+ }
+.container1 #boxes h3{
+	display: inline;
+}
+
+
+

@@ -1,38 +1,57 @@
  <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-	<title> E - Commerce Application </title>
+  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width>
+    <title> E - Commerce Application for MoneyBox Africa</title>
+    <meta name="keywords" content="Our keywords for search optimization will be here" />
+    <meta name="description" content="This project is is an idea of the MoneyBox Africa." />
+    <meta name="OnePlus Group" content=" Omoefe Wale Ernest " />
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
-<div>
+          <header class="header1">
+              <div class="container">
+                <div id="logo">
+                     <h2><a href="#">Company Logo</a></h2>
+                </div>
+             
+                <!-- Seach section -->
+                <div class="Simplesearch">
+                  <input id="input" placeholder="Search for Products, brands and categories"/>
+                  <button id="button"></button>
+                </div>
+                
 
-    <div>
-        <section>
-          <header>
-             <div id="logo">Company Logo</div>
-             <div>Seach section</div>
-             <div>MoneyBox Wallet</div>
-             <div>No Item in Your Bag</div>
-              <div>LogIn/SignUp</div>
-          </header>
-        </section>
+               <nav>
+                <ul>
+                  <li><a href="#">MoneyBox Wallet</a></li>
+                  <li><a href="#">No Item in Your Bag</a></li>
+                  <li><a href="#">LogIn/SignUp</a></li>
+                </ul>
+              </nav>
+              </div>
+            </header>
+          
+      
        <div>
-        <section>
           <header>
              <nav class="NavMenu">
                 <ul>
-                  <li>Mobile</li>
-                  <li>Electricity</li>
-                  <li>DTH</li>
-                  <li>Landline</li>
-                  <li>Financial services</li>
-                  <li>Gas</li>
+                  <li><a href="#"><img src="img/guardiantv.png">Mobile</a></li>
+                  <li><a href="#"><img src="img/guardiantv.png">Electricity</a></li>
+                  <li><a href="#"><img src="img/guardiantv.png">DTH</a></li>
+                  <li><a href="#"><img src="img/guardiantv.png">Landline</a></li>
+                  <li><a href="#"><img src="img/guardiantv.png">Financial services</a></li>
+                  <li><a href="#"><img src="img/guardiantv.png">Gas</a></li>
                 </ul>
             </nav>
           </header>
-        </section>
+
+           
       </div>
       <section>
         <div>
@@ -106,8 +125,8 @@
      <div>Footer section for MoneyBox</div>
     </footer>
    </section>
-   <div>
+  
 </section>
-</div>
+
 </body>
 </html>
