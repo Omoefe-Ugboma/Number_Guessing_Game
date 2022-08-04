@@ -43,7 +43,11 @@ guessBtn.addEventListener('click', function () {
         // Set message
         setMessage(`${winningNum} is correct, YOU WIN!`, 'green');
     } else {
-
+        // Wrong number
+        guessesLeft -= 1;
+        if (guessesLeft === 0) {
+            // 
+        }
     }
 });
 
