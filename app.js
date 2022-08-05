@@ -73,12 +73,13 @@ function gameOver(won, msg) {
     // Set message
     setMessage(msg);
 }
-// Set message
+
 // function setMessage(msg) {
 //     message.style.color = 'red';
 //     message.textContent = msg;
 // }
 
+// Set message
 function setMessage(msg, color) {
     message.style.color = color;
     message.textContent = msg;
